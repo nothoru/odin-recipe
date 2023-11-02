@@ -1,21 +1,39 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: lightblue;
+    background-image: url('bg.jpg');
+   
 }
 
 
 .head{
     text-align: center;
+    font-family: fantasy;
+    font-size: 100px;
 }
 
  .one{
     color: lightgoldenrodyellow;
 }
 
-img{
-    width: 410px;
-    height: auto;  
-    display: block;
+
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    padding:5px;
     margin: auto;
 }
 
+.index{
+    width: 310px;
+    margin-left: 170px;
+    margin-right: 100px;
+    display: inline-flex;
+}
+
+a{
+    color: white;
+}
